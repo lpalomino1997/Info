@@ -1,0 +1,23 @@
+progrmacion web
+php
+comandos y etiquetas html
+----------------------------
+<html>
+<body>
+
+</body>
+</html>
+comandos php-----
+--------------------
+$nombrevariable--------apertura el inicio de una variable
+nota : php determina el tipo de variable automaticamente 
+<br>: etiqueta html ---- cambio de linea
+una instruccion php termina con ;
+-----------------------
+<?php(inicio de bloque de programa php)
+$mensaje1="Mi primera web php <br>";
+$mensaje2="Mi nombre es : leo <br>";
+$mensaje3="edad   : 19 años <br>";
+$mensaje4="curso  : php <br>";
+echo $mensaje1,"<br>","$mensaje2,"<br>",$mensaje3,"<br>",$mensaje4;
+?>fin del bloque 

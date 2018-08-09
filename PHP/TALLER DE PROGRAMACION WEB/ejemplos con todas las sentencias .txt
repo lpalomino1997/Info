@@ -1,0 +1,40 @@
+//clases con if 
+
+<?php
+
+if (8 == 7 or 5 == 6)
+{
+   echo "esto es verdad";
+   }elseif(5==5) {
+    echo "la segunda condicion es verdad";
+    }
+    else{
+    echo "esto no es verdad"
+    }
+
+?>
+// while 
+$aumento = 5;
+while($aumento < 10)
+{
+
+   echo $aumento."<br>";
+   	$aumento++;
+    
+    }
+  echo "resto de codigo";  
+  ?>
+    
+    <?php
+    
+    function funcion($p1,$p2,$p3)
+    {
+        $adicion = $p1+$p2+$p3;
+        $multiplicacion = $adicion * 2;
+        return $multiplicacion;
+        
+        }
+     echo funcion(5,2,2)  ;  
+    
+    
+  ?>

@@ -1,0 +1,11 @@
+investigar el problema presentado en clase
+que salga el acumulador y salga el subtotal
+con acumuladores 
+
+5 ejemplos con if doble
+5 ejemplos con for
+5 con while
+
+que es contador 
+acumulador
+arreglos o vectores

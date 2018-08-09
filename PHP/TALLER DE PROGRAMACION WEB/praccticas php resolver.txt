@@ -1,0 +1,62 @@
+realizar un programa en php que permita generar la tabla de multiplicar
+ de n ademas al valor n aumentarle 100 luego indicar si es mayor o menor 
+aa 99+1 ademas utilizar ese mismo numero para aplicar casos. 
+
+practicaE.php...............................
+analisis 
+ingresar:N
+////// utlizando la estructura for
+for ($p=0;$p<=12;$p++)
+$r=$N*$p;
+echo "<br>".$r;
+////// utlizando la estructura ehile
+while($p<=12)
+$r=$N*$p;
+$p++;
+////// utlizando la estructura if else
+$NN=$N+100;
+if ($NN>99+1)
+   echo "<br> MAYOR";
+else 
+  echo echo "<br> MENOR";
+////// utlizando la estructura swthcit
+switch ($NN)
+{
+   case (400):
+      $tipo = "no pertenece";
+      break;
+   case (120):
+      $tipo = "otro valor";
+      break;
+   case (105):
+      $tipo    "Perteneceal calculo de la tabla ";
+  break;
+   case (106):
+      $tipo = "diferente ";
+      break;
+	default:
+      $tipo = "vuelva a intentarlo "; 
+}
+print ($tipo);
+
+
+practicaF.php
+
+////// utlizando la estructura funciones utilizada por el usuario
+
+ function suma($x,$y)
+    {
+        $s = $x+$y;
+      
+      	return $s;
+}
+$a=1;
+$b=2;
+$c=suma ($a, $b);
+print $c;
+
+
+for 
+while 
+ifelse
+swicth
