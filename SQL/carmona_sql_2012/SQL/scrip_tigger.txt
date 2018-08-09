@@ -1,0 +1,27 @@
+
+create trigger Nuevo_reporte2 on dbo.Revisiones 
+for insert
+as
+declare @count as smallInt
+declare @exis as smallInt
+declare @cuenta as smallInt
+
+select @count = clave_maquina from inserted
+--   from dbo.revisiones
+print 'cadena  -..'+ convert(char(1),@count )
+
+select @exis = maqu,@cuenta=total 
+from dbo.reportes
+	where  @count=maqu
+
+if @exis >0
+ begin
+    update dbo. REPORTES
+    set TOTAL=@cuenta+1
+    where @exis =maqu
+    print 'modificando Registro!!'
+ end
+else
+  begin
+    insert into dbo.REPORTES values (@count,1 )
+  end
